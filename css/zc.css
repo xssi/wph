@@ -1,0 +1,147 @@
+/*
+* @Author: sisi
+* @Date:   2018-10-10 19:28:33
+* @Last Modified by:   sisi
+* @Last Modified time: 2018-10-10 22:18:58
+*/
+.logo{
+	width: 100%;
+	height: 120px;
+}
+.logo .left-logo,.logo .right-logo{
+	line-height: 120px;
+}
+.logo .left-logo{
+	float: left;
+	margin-left: 200px;
+}
+.logo .right-logo{
+	float: right;
+	margin-right: 200px;
+}
+.logo .right-logo span{
+	font-size: 14px;
+	color: #787878;
+}
+.contain{
+	width: 100%; 
+	height: 650px;
+	background:url(../images/background1.jpg) top center no-repeat;
+}
+.contain .loginForm{
+	width: 360px;
+	height: 554px;
+	position: absolute;
+	right: 200px;
+	top:160px;
+	background-color: #fff;
+}
+.contain .loginForm .loginForm-header{
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+.contain .loginForm .loginForm-header>span{
+	line-height: 50px;
+	/* float: left; */
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #666666;
+}
+.contain .loginForm .loginForm-header>p{
+	line-height: 50px;
+	float: right;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.contain .loginForm .loginForm-header>p>a{
+	color: #FF2C91;
+}
+.contain .loginForm .loginForm-body{
+	width: 300px;
+	height: 504px;
+	margin:0 auto;
+}
+.contain .loginForm .loginForm-body>input{
+	width: 300px;
+	height: 46px;
+	border:1px solid #B2B2B2;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 20px;
+	text-indent: 40px;
+	color: #ccc;
+	font-size: 14px;
+}
+.contain .loginForm .loginForm-body>input:first-child{
+	margin-top: 30px;
+}
+.contain .loginForm .loginForm-body>input.yanz{
+	width: 150px;
+	margin-left: -24px;
+}
+
+.contain .loginForm .loginForm-body>button{
+	width: 120px;
+	height: 46px;
+	background-color: #D0D0D0;
+	color: #999999;
+	font-size: 14px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	float: right;
+	margin-top: 20px;
+}
+.contain .loginForm .loginForm-body>i{
+	font-size: 22px;
+	color: #CCCCCC;
+	position: relative;
+	top: -32px;
+	left: 10px;
+}
+.contain .loginForm .loginForm-body>i.icon-shouji{
+	position: relative;
+	top: -53px;
+}
+.contain .loginForm .loginForm-body>i.icon-informatiom_{
+	position: relative;
+	top: 14px;
+	left: -143px;
+}
+.contain .loginForm .loginForm-body .loginForm-footer{
+	margin-top: 25px;
+}
+.contain .loginForm .loginForm-body .loginForm-footer>input{
+	float: left;
+}
+.contain .loginForm .loginForm-body .loginForm-footer>p{
+	color: #333333;
+}
+.contain .loginForm .loginForm-body .loginForm-footer>p>a{
+	color: #1D94D1;
+}
+.contain .loginForm .loginForm-body .loginForm-footer>button{
+	width: 300px;
+	height: 46px;
+	background-color: #F42A94;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 35px;
+	color: #fff;
+	font-size: 18px;
+}
+.footer{
+	height: 100%;
+	height: 78px;
+}
+.footer>p{
+	text-align: center;
+	line-height: 78px;
+}

@@ -1,0 +1,186 @@
+/*
+* @Author: sisi
+* @Date:   2018-10-09 21:36:30
+* @Last Modified by:   sisi
+* @Last Modified time: 2018-10-10 22:24:37
+*/
+
+.logo{
+	width: 100%;
+	height: 120px;
+}
+.logo .left-logo,.logo .right-logo{
+	line-height: 120px;
+}
+.logo .left-logo{
+	float: left;
+	margin-left: 200px;
+}
+.logo .right-logo{
+	float: right;
+	margin-right: 200px;
+}
+.logo .right-logo span{
+	font-size: 14px;
+	color: #787878;
+}
+.contain{
+	width: 100%; 
+	height: 650px;
+	background:url(../images/background1.jpg) top center no-repeat;
+}
+.contain .loginBody{
+	position: absolute;
+	right: 200px;
+	top:160px;
+	background-color: #fff;
+}
+
+.contain .loginBody .nav{
+	width:360px;
+	height: 50px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.contain .loginBody .nav>li{
+	width: 180px;
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+	
+}
+.contain .loginBody .nav>li:first-child{
+	border-right: 1px solid #CCCCCC;
+}
+.contain .loginBody .nav>li>a{
+	line-height: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: #666666;
+}
+.contain .loginBody .nav>li>a:hover{
+	color: #F31D8E;
+	background-color: #fff;
+}
+.tab-content .tab-pane{
+	width: 360px;
+	height: 300px;
+	background-color: #fff;
+}
+.tab-content .active{
+	width: 360px;
+	margin-top: 50px;
+}
+.tab-content .active .tab-maincontent{
+	width:170px;
+	height: 170px;
+	border:1px solid #F0F0F0;
+	margin-left: 100px;
+	text-align: center;
+	line-height: 170px;
+}
+
+.tab-content .active .tab-footercontent{
+	height: 140px;
+	margin-top: 30px;
+}
+.tab-content .active .tab-footercontent>p{
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+}
+.tab-content .active .tab-footercontent>p>span{
+	color: #F10180;
+}
+.tab-footercontent .wechat{
+	width: 300px;
+	height: 42px;
+	margin: 20px auto;
+	text-align: center;
+}
+.tab-footercontent .wechat .line{
+	width: 110px;
+	height: 20px;
+	border-bottom: 1px solid #E0E0E0;
+	float: left;
+}
+.tab-footercontent .wechat .line:last-child{
+	float: right;
+}
+.tab-footercontent .footernav{
+	width: 360px;
+	height: 45px;
+	margin-top: -5px;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+.tab-footercontent .footernav>a:hover{
+	color: #333;
+	text-decoration: none;
+}
+.tab-footercontent .footernav .left-footernav{
+	margin-left: 30px;
+}
+.tab-footercontent .footernav .left-footernav>li{
+	float: left;
+	margin:0 3px;
+}
+.tab-footercontent .footernav .left-footernav>li.footer-line{
+	color: #ccc;
+}
+.tab-footercontent .footernav .right-footernav{
+	float: right;
+	margin-right: 30px;
+}
+.tab-content .login-form{
+	margin-top: 10px;
+	margin-left: 35px;
+}
+.tab-content .login-form>input:nth-child(1),
+.tab-content .login-form>input:nth-child(3){
+	width: 300px;
+	height: 46px;
+	border:1px solid #ccc;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 15px;
+	text-indent: 40px;
+}
+.tab-content .login-form>i{
+	font-size: 22px;
+	color: #CCCCCC;
+	position: relative;
+	left: -290px;
+	top:12px;
+}
+.tab-content .login-form .checkboxs{
+	width: 300px;
+	margin: 20px 0;
+	font-size: 12px;
+}
+.tab-content .login-form .checkboxs>p{
+	float: right;
+}
+.tab-content .login-form>button{
+	width: 300px;
+	height: 46px;
+	background-color: #F31D8E;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	font-size: 20px;
+	color: #fff;
+}
+.footer{
+	height: 100%;
+	height: 78px;
+}
+.footer>p{
+	text-align: center;
+	line-height: 78px;
+}
